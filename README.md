@@ -24,9 +24,9 @@ I added part-of-speech category tags and named entity tags as annotations. <br>
 The files in the data directory are the four short stories as plain text files (poe_the assignation.txt, poe_the black cat.txt, poe_the masque of the red death.txt, poe_the tell-tale heart.txt). <br>
 
 The repository also includes the following files: <br>
-- the metadata about the short stories in a CSV file (metadata.csv) <br>
-- the Jupyter Notebook (processing_text_corpus.ipynb) <br>
-- the short stories annotated with the use of spaCy in a CSV file (poe_short_stories_enriched_with_spaCy_tags.csv) <br>
+- `metadata.csv` the metadata about the short stories in a CSV file <br>
+- `processing_text_corpus.ipynb` the processing of the text corpus <br>
+- `poe_short_stories_enriched_with_spaCy_tags.csv` the short stories enriched with metadata and spaCy annotations in a CSV file <br>
 
 **8. Description of columns in the CSV file containing annotations**<br>
 
@@ -45,7 +45,7 @@ The repository also includes the following files: <br>
 | POS | part-of-speech category tags of the short story |
 | Adjectives | words tagged as adjectives in the short story |
 | Named_Entities | named entity tags of the short story |
-| NE_Words | phrases/expressions tagged as named entities |
+| NE_Words | phrases tagged as named entities |
 | NE_PERSON | phrases tagged as 'PERSON' named entity |
 | NE_TIME | phrases tagged as 'TIME' named entity |
 | NE_DATE | phrases tagged as 'DATE' named entity |
